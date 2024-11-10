@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Perfil" />
+
+    <Button
+        android:id="@+id/btnListaProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Lista_de_Productos" />
+
+    <Button
+        android:id="@+id/btnCarritoCompras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Carrito_de_Compras" />
+
+    <Button
+        android:id="@+id/btnGeolocalizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Geolocalización" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button_text" />
+</LinearLayout>

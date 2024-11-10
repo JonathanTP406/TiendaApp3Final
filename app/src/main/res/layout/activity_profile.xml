@@ -1,0 +1,42 @@
+<!-- activity_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView para la imagen de perfil -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_default_profile"
+        android:contentDescription="@string/imagen_de_perfil_del_usuario" />
+
+    <!-- Botón para subir la imagen desde la galería -->
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/subir_imagen" />
+
+    <!-- Botón para tomar una foto -->
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tomar_foto" />
+
+    <!-- Texto para mostrar el correo del usuario -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/correo_user_example_com"
+        android:textSize="18sp" />
+
+</LinearLayout>

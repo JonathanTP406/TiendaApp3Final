@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TiendaApp2" parent="Theme.AppCompat.DayNight">
+        <!-- Personaliza tu tema aquí -->
+
+        <item name="android:windowNoTitle">true</item> <!-- Esto elimina la barra de título -->
+        <item name="android:windowActionBar">false</item> <!-- Esto desactiva la ActionBar, si es necesario -->
+    </style>
+</resources>
